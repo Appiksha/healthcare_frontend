@@ -1,0 +1,213 @@
+@import "./variables.css";
+
+/*
+    --BoxMajor:#444444;
+    --BoxLight:#f2f2f2;
+    --FontDarkMajor:#fff;
+    --FontDarkMinor:#f2f2f2;
+    --FontMajor:#444444;
+    --FontMinor:#929292;
+    --Raleway: "Raleway", sans-serif;
+*/
+/*for main screen ie. landing page*/
+.mnsrc {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+  overflow: scroll;
+
+  padding-bottom: 4em;
+  user-select: none;
+}
+.message_Box {
+  width: 100%;
+  min-height: clamp(3em, 12%, 20em);
+  display: flex;
+  flex-flow: column-reverse;
+  padding-bottom: 1em;
+}
+.message_Box .greet {
+  width: 100%;
+
+  font-style: normal;
+  font-weight: lighter;
+  font-size: clamp(0.5em, 0.5em + 2vw, 3.5em);
+  display: flex;
+  flex-flow: column-reverse;
+  text-transform: capitalize;
+  color: var(--FontMinor);
+}
+
+.message_Box .ques {
+  width: 100%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1em, 1em + 1vw, 4em);
+  line-height: 18px;
+  display: flex;
+  flex-flow: column-reverse;
+  padding-top: 5px;
+  color: var(--FontMajor);
+  text-transform: capitalize;
+}
+
+/*search*/
+.search_box_container {
+  width: 100%;
+  height: clamp(3em, 6%, 5em);
+  border-radius: 8px;
+  background-color: var(--searchbar);
+  display: flex;
+
+  overflow: hidden;
+  margin-top: 1em;
+}
+.search_box {
+  width: 85%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding-left: 15px;
+  outline: none;
+  float: left;
+
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  font-size: 2vh;
+  user-select: none;
+  color: var(--FontMajor);
+}
+.typewrite > .wrap {
+  border-right: 0.1em solid red;
+  animation: typing 0.6s ease-in-out infinite;
+}
+@keyframes typing {
+  0% {
+    border-right: 0.01em solid transparent;
+  }
+  50% {
+    border-right: 0.01em solid red;
+  }
+  100% {
+    border-right: 0.01em solid transparent;
+  }
+}
+.search_button {
+  width: 15%;
+  height: 100%;
+  font-weight: lighter;
+  border: none;
+  color: var(--FontMinor);
+  display: flex;align-items: center;
+justify-content: center;
+}
+
+.search_button .Icon_container {
+  width: 70%;
+  height: 70%;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_button .Icon_container svg {
+  width: 80%;
+  height: 80%;
+  border: none;
+  stroke: var(--BoxMajor);
+  background-color: transparent;
+}
+
+/*card*/
+.card_container {
+  width: 100%;
+  height: clamp(14em, 10%, 60em);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-box;
+  display: box;
+}
+
+.card_container .card {
+  width: 100%;
+  height: 93%;
+  border-radius: 8px;
+
+}
+
+.suggestions_container {
+  width: 100%+40px;
+  height: 15em;
+  min-height: 10em;
+  margin-top: 1em;
+  margin-left: -20px;
+  margin-right: -20px;
+  overflow-y: hidden;
+}
+
+.suggestions_container .head {
+  width: 100%;
+  min-height: 6%;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.suggestions_container .head div:nth-child(3) {
+  text-align: end;
+
+  color: var(--FontMinor);
+  font-weight: lighter;
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
+.suggestions_container .body {
+  width: 100%;
+  height: 92%;
+  background-color: transparent;
+  overflow: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-auto-flow: column;
+  grid-auto-columns: clamp(5.5em, 40%, 15em);
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+}
+.suggestions_container .body::-webkit-scrollbar {
+  display: none;
+}
+
+.suggestions_container .body .suggestions {
+  width: 100%;
+  height: 95%;
+  background-color: transparent;
+
+  border-radius: 8px;
+  scroll-snap-align: start;
+  scroll-margin-left: 5px;
+}
+.suggestions_container .body .suggestions:nth-child(1) {
+  scroll-snap-align: end;
+}
