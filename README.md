@@ -49,9 +49,9 @@ This app is a web app that allows users to book appointments with doctors and al
 
 
 
-![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/1.jpg?raw=true)
-![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/2.jpg?raw=true)
-![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/3.jpg?raw=true)
-![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/4.jpg?raw=true)
-![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/5.jpg?raw=true)
-![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/6.jpg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/sampleimages/1.jpeg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/sampleimages/2.jpeg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/sampleimages/3.jpeg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/sampleimages/4.jpeg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/sampleimages/5.jpeg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/sampleimages/6.jpeg?raw=true)
