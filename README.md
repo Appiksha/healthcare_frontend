@@ -46,3 +46,12 @@ This app is a web app that allows users to book appointments with doctors and al
 ## Hosting services used 
     * Netlify
     * Pythonanywhere
+
+
+
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/1.jpg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/2.jpg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/3.jpg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/4.jpg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/5.jpg?raw=true)
+![alt text](https://github.com/Appiksha/healthcare_frontend/blob/master/6.jpg?raw=true)
